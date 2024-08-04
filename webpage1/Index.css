@@ -1,0 +1,116 @@
+body{
+    width:100vw;
+    height:100vh;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    background-image:url(images/ima2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    width: 100%; 
+    height: 109vh;
+    filter: brightness(90%);
+}
+.navbar
+{
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.logo{
+    margin-left: 40px;
+    font-size: 30px;
+    color: white;
+}
+ul  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    margin: 10px;
+    list-style: none;
+}
+ul li a{
+     text-decoration: none;
+     color:white;
+     font-size: 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.srch{
+   
+    width:250px;
+    margin: 3px;
+    height:25px;
+    margin-left: -50px;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.btn{
+    width:56px;
+    height:25px;
+    margin-right: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+}
+ul li a:active
+{
+    color: black;
+}
+.btn:hover
+{
+    color: black;
+}
+.btn:active
+{
+    color:brown;
+}
+.form1
+{
+    align-items: center;
+    float:right;
+    color: white;
+    width: 300px;
+    height: 250px;
+    padding: 25px;
+    margin-top:5%;
+    margin-right: 5%;
+}
+ input
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    width: 300px;
+    height: 25px;
+    padding-left: 10px;
+}
+button
+{
+    margin: 10px;
+    text-align: center;
+    border-radius: 20PX;
+    height: 30px;
+    float:right;
+    width: 100px;
+}
+.im
+{
+    margin-top: 5%;
+    margin-left: 3%;
+    width :325px;
+    height:325px;
+}

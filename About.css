@@ -1,0 +1,52 @@
+body{
+    background-image: url(images/homeimage.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.field
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 700px;
+    height: 400px;
+    flex-direction: column;
+}
+dt{
+   font-weight: 800;
+}
+.navbar
+{
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.logo{
+    margin-left: 40px;
+    font-size: 30px;
+    color: black;
+}
+.re {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.re li{
+    margin: 10px;
+    list-style: none;
+}
+.re li a{
+     text-decoration: none;
+     color:black;
+     font-size: 20px;
+}
+.menu
+{
+    margin-right: 60px;
+}
